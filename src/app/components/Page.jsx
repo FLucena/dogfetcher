@@ -11,6 +11,7 @@ async function Page() {
     const { message } = await res.json();
     return (
         <div className="page-container">
+            <h1>Dog Fetcher</h1> <span>by FL Automations</span>
             <div className="image-container">
                 <img className="dog-image" src={message} alt="Random Dog" />
             </div>
