@@ -2,7 +2,7 @@
 const nextConfig = {
   // Enable React strict mode for better development experience
   reactStrictMode: true,
-  
+
   // Optimize images
   images: {
     remotePatterns: [
@@ -14,11 +14,11 @@ const nextConfig = {
       },
     ],
   },
-  
+
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['react', 'react-dom'],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
